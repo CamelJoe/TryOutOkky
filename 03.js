@@ -23,7 +23,7 @@ var Cart = [];
        document.getElementById("cart_total").innerHTML=cart_total_price;
    }
 
-function AddtoCart(Index_produk,kode_produk,nama_produk,harga,quantity){
+function AddtoCart(Index_produk,Kode_produk,nama_produk,harga,quantity){
   var listProduct = {};
   listProduct.Index_produk= Math.floor(Math.random() * 100);
   listProduct.Kode_produk= prompt('masukkan kode produk');
